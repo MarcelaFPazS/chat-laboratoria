@@ -8,6 +8,20 @@
   <title>ChatLab</title>
 </head>
 <body>
+  <h1>ChatLab</h1>
+  <div id="loguinContainer">
+    <div id="loggedIn">
+      <p id="username"></p><input id="logOutButton" type="button" value="LOG OUT">
+
+    </div>
+    <div id="loggedOut">
+      <input id="email" type="email">
+      <input id="password"type="password">
+      <input id="register"  onclick="register()"type="button" value="REGISTER">
+      <input id="login"  onclick="login()"type="button" value="LOGIN">
+
+    </div>
+  </div>
   
 <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
 <script>
