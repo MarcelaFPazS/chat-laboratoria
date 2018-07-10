@@ -1,0 +1,15 @@
+#messageContainer{
+  height: 70vh;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-size: 500%;
+
+}
+.textone{
+  background-color: cornflowerblue;
+}
+body{
+  background-color: aquamarine;
+}
